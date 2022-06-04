@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    </link>
+    <title>RPS Game</title>
+</head>
+
+<body>
+    <header>
+        <h1><span class="icons">✊🤚✌️</span>Rock Paper Scissors Game</h1>
+    </header>
+
+    <section class="main">
+
+        <div class="game">
+            <div class="user-box">
+                <span id="user" class="user-choice">
+                    <img id="user-choice-img"  src="">
+                </span>
+                <span class="tag">You</span>
+            </div>
+            <span class="vs">VS</span>
+            <div class="computer-box">
+                <span id="computer" class="computer-choice">
+                    <img id="computer-choice-img"  src="">
+                </span>
+                <span class="tag">Computer </span>
+            </div>
+        </div>
+
+        <div class="result">
+            <p id="result">-- Choose one to start game --</p>
+        </div>
+
+        <div class="choices">
+            <div class="choices-group-1" id="choices-group-1">
+                <div class="choice" id="r">
+                    <img src="images/rock.svg" alt="rock">
+                </div>
+                <div class="choice" id="p">
+                    <img src="images/paper.svg" alt="paper">
+                </div>
+                <div class="choice" id="s">
+                    <img src="images/scissors.svg" alt="scissors">
+                </div>
+            </div>
+            <div class="choices-group-2" id="choices-group-2">
+                <div class="choice" id="f">
+                    <img src="images/fire.png" width="110px" height="110px" alt="fire" />
+                </div>
+                <div class="choice" id="w">
+                    <img src="images//water.png" width="110px" height="110px" alt="water" />
+                </div>
+                <div class="choice" id="o">
+                    <img src="images/wood.png" width="105px" height="110px" alt="wood" />
+                </div>
+            </div>
+        </div>
+        
+        <div class="choices-type-container">
+            <span class="title">Customise The Game</span>
+            <div class="types-container">
+                <div class="type-1" id="type-1">
+                    <span class="img-circle">
+                        <img src="images/rock.svg" width="30px" height="30px" alt="rock">
+                    </span>
+                    <span class="img-circle">
+                        <img src="images/paper.svg" width="30px" height="30px" alt="paper">
+                    </span>
+                    <span class="img-circle">
+                        <img src="images/scissors.svg" width="30px" height="30px" alt="scissors">
+                    </span>
+                </div>
+
+                <div class="type-2" id="type-2">
+                    <span class="img-circle">
+                        <img src="images/fire.png" width="30px" height="30px" alt="fire" />
+                    </span>
+                    <span class="img-circle">
+                        <img src="images//water.png" width="30px" height="30px" alt="water" />
+                    </span>
+                    <span class="img-circle">
+                        <img src="images/wood.png" width="30px" height="30px" alt="wood" />
+                    </span>
+                </div>
+            </div>
+        </div>
+
+        <div class="try-div">
+            <button id="try-again" class="try-again">Try Again</button>
+        </div>
+    </section>
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>
